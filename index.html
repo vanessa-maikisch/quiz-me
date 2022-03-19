@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Quiz Me!</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <!-- Nav, Timer, Quiz Intro/Instructions-->
+        <header>
+            <nav>
+                <a href="./scores.html">High Score Board</a>
+            </nav>
+
+        </header>
+        <div>
+            <h1>Welcome to the Coding Quiz!</h1>
+            <h2>
+                Test your programming knowledge with this timed quiz! <br>
+                Each incorrect answer will deduct 10 seconds from the timer. <br>
+                The quiz is over when all questions are answered or the timer reaches zero.<br>
+                Enter your score and initials at the end for the High Score board!<br>
+            </h2>
+        </div>
+
+        <!--Questions Container-->
+        <div class="container">
+            <div id="question-container" class="hide">
+            <div id="questions">Question</div>
+            <div id="answer-buttons" class="button-stack">
+                <button class="button">Answer 1</button>
+                <button class="button">Answer 2</button>
+                <button class="button">Answer 3</button>
+                <button class="button">Answer 4</button>
+            </div>
+            </div>
+        </div>
+        <div class="start">
+            <button class="startbtn">Start Quiz</button>
+        </div>
+        
+        
+    </body>
+</html>
